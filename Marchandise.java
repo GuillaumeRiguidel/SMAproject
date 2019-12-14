@@ -10,10 +10,10 @@ public class Marchandise {
     }
 
     public int getStock(){
-        return this.stock;
+        return stock;
     }
 
     public int getPrix(){
-        return this.prix;
+        return prix;
     } 
 }
