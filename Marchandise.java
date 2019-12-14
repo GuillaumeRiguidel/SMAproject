@@ -5,7 +5,7 @@ public class Marchandise {
     protected int stock;
 
     public Marchandise(int prix, int stock){
-        this.prix = prix;
+        this.prix = prix = 1;
         this.stock = stock;
     }
 

@@ -15,6 +15,11 @@ public class Agents extends Agent{
     protected float solde;
 
     
+    public Agents(float satisfaction, int stockMax, float solde){
+        this.satisfaction = satisfaction;
+        this.stockMax = stockMax;
+        this.solde = solde;
+    }
     protected void setup(){
         
         ServiceDescription sd  = new ServiceDescription();
